@@ -1,0 +1,127 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ei_add_test",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"libs/eigen/cmake/EigenTesting.cmake",
+			"libs/eigen/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 161,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 269,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "redux_2::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "redux_3::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "redux_5::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "redux_4::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "redux_8::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "redux_7::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "redux_1::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "redux_6::@dacd69dfaca5139d8e90"
+		}
+	],
+	"id" : "redux::@dacd69dfaca5139d8e90",
+	"name" : "redux",
+	"paths" : 
+	{
+		"build" : "libs/eigen/test",
+		"source" : "libs/eigen/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

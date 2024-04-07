@@ -1,0 +1,53 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"libs/eigen/lapack/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "eigen_lapack_static::@f6facc4adda4927b83d4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "eigen_lapack::@f6facc4adda4927b83d4"
+		}
+	],
+	"id" : "lapack::@f6facc4adda4927b83d4",
+	"name" : "lapack",
+	"paths" : 
+	{
+		"build" : "libs/eigen/lapack",
+		"source" : "libs/eigen/lapack"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

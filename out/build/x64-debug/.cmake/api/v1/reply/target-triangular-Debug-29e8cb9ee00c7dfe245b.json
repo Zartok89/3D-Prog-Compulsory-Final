@@ -1,0 +1,137 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ei_add_test",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"libs/eigen/cmake/EigenTesting.cmake",
+			"libs/eigen/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 269,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "triangular_1::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "triangular_5::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "triangular_7::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "triangular_2::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "triangular_3::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "triangular_4::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "triangular_6::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "triangular_9::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "triangular_8::@dacd69dfaca5139d8e90"
+		}
+	],
+	"id" : "triangular::@dacd69dfaca5139d8e90",
+	"name" : "triangular",
+	"paths" : 
+	{
+		"build" : "libs/eigen/test",
+		"source" : "libs/eigen/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

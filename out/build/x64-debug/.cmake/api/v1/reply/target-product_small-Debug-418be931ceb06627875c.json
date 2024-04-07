@@ -1,0 +1,247 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ei_add_test",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"libs/eigen/cmake/EigenTesting.cmake",
+			"libs/eigen/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 170,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 269,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "product_small_32::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "product_small_7::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "product_small_5::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "product_small_6::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "product_small_13::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "product_small_2::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "product_small_4::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "product_small_11::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "product_small_41::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "product_small_21::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "product_small_1::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "product_small_3::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "product_small_23::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "product_small_12::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "product_small_31::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "product_small_42::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "product_small_8::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "product_small_43::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "product_small_22::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "product_small_33::@dacd69dfaca5139d8e90"
+		}
+	],
+	"id" : "product_small::@dacd69dfaca5139d8e90",
+	"name" : "product_small",
+	"paths" : 
+	{
+		"build" : "libs/eigen/test",
+		"source" : "libs/eigen/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

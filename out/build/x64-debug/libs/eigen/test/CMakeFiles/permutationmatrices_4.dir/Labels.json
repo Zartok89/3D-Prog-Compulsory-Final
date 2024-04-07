@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/libs/eigen/test/permutationmatrices.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "permutationmatrices_4"
+	}
+}

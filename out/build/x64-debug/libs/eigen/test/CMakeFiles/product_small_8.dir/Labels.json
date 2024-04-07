@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/libs/eigen/test/product_small.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "product_small_8"
+	}
+}

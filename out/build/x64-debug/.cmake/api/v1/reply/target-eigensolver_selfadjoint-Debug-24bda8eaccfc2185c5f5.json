@@ -1,0 +1,157 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ei_add_test",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"libs/eigen/cmake/EigenTesting.cmake",
+			"libs/eigen/test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 212,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 269,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 273,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "eigensolver_selfadjoint_12::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "eigensolver_selfadjoint_4::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "eigensolver_selfadjoint_13::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "eigensolver_selfadjoint_6::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "eigensolver_selfadjoint_1::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "eigensolver_selfadjoint_2::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "eigensolver_selfadjoint_3::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "eigensolver_selfadjoint_5::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "eigensolver_selfadjoint_9::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "eigensolver_selfadjoint_7::@dacd69dfaca5139d8e90"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "eigensolver_selfadjoint_8::@dacd69dfaca5139d8e90"
+		}
+	],
+	"id" : "eigensolver_selfadjoint::@dacd69dfaca5139d8e90",
+	"name" : "eigensolver_selfadjoint",
+	"paths" : 
+	{
+		"build" : "libs/eigen/test",
+		"source" : "libs/eigen/test"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
