@@ -46,12 +46,28 @@ set(IMGUI_SOURCE
 # Project header and source files
 set(HEADER_FILES
   CompulsoryFinal.h
+
   includes/stbi/stb_image.h
+  core/fApplication/Shader.h
+  core/fApplication/Window.h
+
+  core/fObject/IOcontroller.h
+  core/fObject/Mesh.h
+  core/fObject/Transform.h
+  core/fObject/Vertex.h
+
 )
 
 set(SRC_FILES
   CompulsoryFinal.cpp
   includes/glad/glad.c
+
+  core/fApplication/Shader.cpp
+  core/fApplication/Window.cpp
+
+  core/fObject/IOcontroller.cpp
+  core/fObject/Mesh.cpp
+ 
 )
 
 # External libraries
