@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/install_manifest.txt\"")
+if (NOT EXISTS "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/install_manifest.txt\"")
 endif()
 
-file(READ "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/install_manifest.txt" files)
+file(READ "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

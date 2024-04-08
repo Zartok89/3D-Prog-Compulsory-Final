@@ -1,4 +1,4 @@
-# Install script for directory: C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/language_tests/Fortran
+# Install script for directory: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/language_tests/Fortran
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/language_tests/Fortran/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/language_tests/Fortran/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

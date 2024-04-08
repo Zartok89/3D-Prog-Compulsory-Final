@@ -1,8 +1,8 @@
-# Install script for directory: C:/VisualStudioProjects/3D-Prog-Compulsory-Final
+# Install script for directory: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/cmake_install.cmake")
-  include("C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/assimp/cmake_install.cmake")
-  include("C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glm/glm/cmake_install.cmake")
-  include("C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/eigen/cmake_install.cmake")
+  include("C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glfw-3.3.9/cmake_install.cmake")
+  include("C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/assimp-master/cmake_install.cmake")
+  include("C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/glm/glm/cmake_install.cmake")
+  include("C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/libs/eigen/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

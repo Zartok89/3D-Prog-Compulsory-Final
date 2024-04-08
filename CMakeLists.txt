@@ -20,7 +20,7 @@ include_directories(
   includes/glad
   includes/stbi
   libs/glm
-  libs/assimp/include
+  libs/assimp-master/include
   libs/eigen
 )
 
@@ -56,7 +56,7 @@ set(SRC_FILES
 
 # External libraries
 add_subdirectory(libs/glfw-3.3.9)
-add_subdirectory(libs/assimp)
+add_subdirectory(libs/assimp-master)
 add_subdirectory(libs/glm/glm)
 add_subdirectory(libs/eigen)
 

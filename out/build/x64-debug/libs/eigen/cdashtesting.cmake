@@ -1,9 +1,9 @@
 
-set(CTEST_SOURCE_DIRECTORY  "C:/VisualStudioProjects/3D-Prog-Compulsory-Final")
-set(CTEST_BINARY_DIRECTORY  "C:/VisualStudioProjects/3D-Prog-Compulsory-Final/out/build/x64-debug")
+set(CTEST_SOURCE_DIRECTORY  "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final")
+set(CTEST_BINARY_DIRECTORY  "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug")
 set(CTEST_CMAKE_GENERATOR   "Ninja")
-set(CTEST_BUILD_NAME        "unknownwin-19.39.33519.0-sse2-64bit")
-set(CTEST_SITE              "msi")
+set(CTEST_BUILD_NAME        "unknownwin-19.36.32542.0-sse2-64bit")
+set(CTEST_SITE              "dag_tech")
 
 set(MODEL Experimental)
 if(${CTEST_SCRIPT_ARG} MATCHES Nightly)
