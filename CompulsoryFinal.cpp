@@ -2,11 +2,23 @@
 //
 
 #include "CompulsoryFinal.h"
+#include "core/fApplication/Application.h"
+#include <iostream>
 
 using namespace std;
 
 int main()
 {
 	cout << "Hello CMake." << endl;
-	return 0;
+
+	///Hvordn skal ci calle app?
+	Scene mScene{ "Scene" };
+	Window mWindow{ "LearnOpenGL", &mScene, 1280, 720 };
+	
+
+	
+
+
+	return mWindow.Tint();
 }
+

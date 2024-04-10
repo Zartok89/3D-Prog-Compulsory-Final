@@ -48,13 +48,20 @@ set(HEADER_FILES
   CompulsoryFinal.h
 
   includes/stbi/stb_image.h
-  core/fApplication/Shader.h
-  core/fApplication/Window.h
 
-  core/fObject/IOcontroller.h
-  core/fObject/Mesh.h
-  core/fObject/Transform.h
-  core/fObject/Vertex.h
+  core/fApplication/Window.h
+  core/fApplication/Application.h
+
+  core/fMesh/Mesh.h
+  core/fMesh/Vertex.h
+  core/fMesh/Shader.h
+
+  core/fActor/Transform.h
+  core/fActor/ActorController.h
+  core/fActor/Scene.h
+
+  core/pathDir.h
+
 
 )
 
@@ -62,11 +69,14 @@ set(SRC_FILES
   CompulsoryFinal.cpp
   includes/glad/glad.c
 
-  core/fApplication/Shader.cpp
-  core/fApplication/Window.cpp
+  core/fMesh/Shader.cpp
+  core/fMesh/Mesh.cpp
 
-  core/fObject/IOcontroller.cpp
-  core/fObject/Mesh.cpp
+  core/fApplication/Window.cpp
+  core/fApplication/Application.h
+
+  core/fActor/ActorController.cpp
+  core/fActor/Scene.cpp
  
 )
 
