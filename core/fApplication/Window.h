@@ -21,6 +21,15 @@ public:
 	~Window();
 
 
+	///Default members
+private:
+	///Constructor default members
+	std::string mName;
+	int mWidth, mHeight;
+	Scene* mScene{ nullptr };
+	struct GLFWwindow* mGLFWWindow{ nullptr };
+
+public:
     ///Functions
 
 	///Initializes the window class and all its operations
@@ -69,12 +78,5 @@ public:
 	int GetHeight() const;
 	struct GLFWwindow* GetGLFWwindow() const { return mGLFWWindow; };
 
-	///Default members
-private:
-	///Constructor default members
-	std::string mName;
-	int mWidth, mHeight;
-	Scene* mScene{ nullptr };
-	struct GLFWwindow* mGLFWWindow{ nullptr };
 };
   

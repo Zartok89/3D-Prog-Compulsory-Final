@@ -14,6 +14,8 @@ public:
      
     int Run();
 
+    int Test();
+
 private:
     void Init();
     void InitializeGLFW();

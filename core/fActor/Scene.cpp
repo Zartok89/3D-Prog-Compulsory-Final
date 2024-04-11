@@ -5,12 +5,12 @@
 
 
  Scene::Scene(const std::string& name)
-	 :mName(name) {}
+	 {}
 
  void Scene::LoadContent()
  {
-	 //mShader = new Shader(SOURCE_DIRECTORY("assets/shaders/shader.vs"), SOURCE_DIRECTORY("assets/shaders/shader.fs"));
-	 0;
+	 //mShader = new Shader("assets/shaders/shader.vs", "assets/shaders/shader.fs");
+	
  }
  
  void Scene::UnloadContent()
@@ -19,28 +19,28 @@
 	 mShader = nullptr;
  }
 
- void Scene::FrameBufferSizeCallback(GLFWwindow* window, int width, int height)
+ void Scene::FrameBufferSizeCallback(Window* window, int width, int height)
  {
-	 glm::perspectiveRH(glm::radians(1.f), 1.f, 1.f, 1.f); 
+	 static_cast<float>(width) / static_cast<float>(height);
  }
 
- void Scene::MouseButtonCallback(GLFWwindow* window, int button, int action, int mods)
- {
- }
-
- void Scene::MouseMovementCallback(GLFWwindow* window, double xPos, double yPos)
+ void Scene::MouseButtonCallback(Window* window, int button, int action, int mods)
  {
  }
 
- void Scene::MouseScrollCallback(GLFWwindow* window, double xOffset, double yOffset)
+ void Scene::MouseMovementCallback(Window* window, double xPos, double yPos)
  {
  }
 
- void Scene::KeyCallback(GLFWwindow* window, int key, int action, int scan, int mods)
+ void Scene::MouseScrollCallback(Window* window, double xOffset, double yOffset)
  {
  }
 
- void Scene::CharCallback(GLFWwindow* window, unsigned int callpoint)
+ void Scene::KeyCallback(Window* window, int key, int action, int scan, int mods)
+ {
+ }
+
+ void Scene::CharCallback(Window* window, unsigned int callpoint)
  {
  }
 

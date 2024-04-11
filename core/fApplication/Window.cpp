@@ -23,10 +23,11 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
-///////////////////////////
+/// ////////////////////////
 
 Window::Window(std::string name, Scene* scene, int width, int height)
-	:mName(name), mScene(scene), mWidth(width), mHeight(height){}
+	:mName(name), mScene(scene), mWidth(width), mHeight(height)
+{}
 
 Window::~Window()
 {
@@ -47,6 +48,7 @@ void Window::Init()
 
 	///Initialisez glad
 	int gladResult = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);  
+	assert(gladResult && "Failed to initialize glad"); 
 
 	//IMGUI_CHECKVERSION();
 	//ImGui::CreateContext();
@@ -78,10 +80,7 @@ void Window::gl_Pollevents()
 
 void Window::Render(float dt)
 {
-	if (mScene)
-	{
-		mScene->Render(dt);
-	}
+	if (mScene) mScene->Render(dt);
 }
 
 void Window::gl_SwapBuffers()
@@ -119,9 +118,11 @@ bool Window::IsClosed()
 
 void Window::FrameBufferSizeCallback(GLFWwindow* window, int width, int height)
 {
+	glViewport(0, 0, width, height);
+
 	if (mScene)
 	{
-		glViewport(0, 0, width, height);
+		mScene->FrameBufferSizeCallback(this, width, height);
 	}
 }
 
