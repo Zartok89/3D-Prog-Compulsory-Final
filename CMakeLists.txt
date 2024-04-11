@@ -73,7 +73,7 @@ set(SRC_FILES
   core/fMesh/Mesh.cpp
 
   core/fApplication/Window.cpp
-  core/fApplication/Application.h
+  core/fApplication/Application.cpp
 
   core/fActor/ActorController.cpp
   core/fActor/Scene.cpp

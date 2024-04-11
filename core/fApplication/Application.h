@@ -14,9 +14,11 @@ public:
      
     int Run();
 
-    int Test();
+    //int Test();
 
 private:
+    Application() = default;
+
     void Init();
     void InitializeGLFW();
     void LoadContent();

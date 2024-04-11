@@ -20,8 +20,8 @@ int main()
 	Window mWindow{ "LearnOpenGL", &mScene, 1280, 720 };
 	/*mWindow.FrameBufferSizeCallback(mWindow.GetGLFWwindow(), mWindow.GetWidth(), mWindow.GetHeight());*/
 	
-	//Application* app = Application::Get();
+	
 
-	return 0;
+	return Application::Get()->Run();
 }
 

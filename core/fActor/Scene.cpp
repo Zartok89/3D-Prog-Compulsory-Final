@@ -9,7 +9,7 @@
 
  void Scene::LoadContent()
  {
-	 //mShader = new Shader("assets/shaders/shader.vs", "assets/shaders/shader.fs");
+	 mShader = new Shader("assets/shaders/shader.vs", "assets/shaders/shader.fs");
 	
  }
  

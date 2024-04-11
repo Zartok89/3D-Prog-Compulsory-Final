@@ -3203,3 +3203,234 @@ events:
         19.36.32542.01
       exitCode: 0
 ...
+
+---
+events:
+  -
+  -
+    kind: "try_compile-v1"
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:106 (try_compile)"
+      - "libs/eigen/cmake/EigenDetermineVSServicePack.cmake:8 (_DetermineVSServicePack_CheckVersionWithTryCompile)"
+      - "libs/eigen/cmake/EigenTesting.cmake:534 (EigenDetermineVSServicePack)"
+    backtrace:
+gen/cmake/EigenTesting.cmake:657 (ei_get_compilerver)"
+      - "libs/eigen/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      - "libs/eigen/CMakeLists.txt:421 (include)"
+022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:106 (try_compile)"
+      - "libs/eige      source: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-pfa1nr"
+      binary: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-pfa1nr"
+      - "libs/eigen/cmake/EigenTesting.cmake:657 (ei_get_compilerver)"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+      - "libs/eigen/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      CMAKE_MODULE_PATH: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+      - "libs/eigen/CMakeLists.txt:421 (include)"
+      variable: "_CompileResult"
+    directories:
+
+      stdout: |
+      source: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-iswkvn"
+      binary: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-iswkvn"
+nr
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_MODULE_PATH: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_7d097 && [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7d097.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_7d097.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+      variable: "_CompileResult"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-iswkvn
+        
+/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7d097.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7d097.dir\\return0.cc.obj  /out:cmTC_7d097.exe /implib:cmTC_7d097.lib /pdb:cmTC_7d097.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+        Run Build Command(s):C:/PROGRA~1/MICROS~4/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_d25aa && [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d25aa.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_d25aa.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d25aa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d25aa.dir\\return0.cc.obj  /out:cmTC_d25aa.exe /implib:cmTC_d25aa.lib /pdb:cmTC_d25aa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+  -
+    backtrace:
+un-v1"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:127 (try_run)"
+      - "libs/eigen/cmake/EigenDetermineVSServicePack.cmake:10 (_DetermineVSServicePack_CheckVersionWithTryRun)"
+      - "libs/eigen/cmake/EigenTesting.cmake:534 (EigenDetermineVSServicePack)"
+onExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:127 (try_run)"
+      - "libs/eigen/cmake/EigenTesting.cmake:657 (ei_get_compilerver)"
+neVSServicePack_CheckVersionWithTryRun)"
+      - "libs/eigen/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+
+      - "libs/eigen/CMakeLists.txt:421 (include)"
+i_get_compilerver)"
+    directories:
+n/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      source: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-en1492"
+      binary: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-en1492"
+    cmakeVariables:
+umenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-y0q0cn"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+debug/CMakeFiles/CMakeScratch/TryCompile-y0q0cn"
+      CMAKE_MODULE_PATH: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+    buildResult:
+AGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+      variable: "_CompileResult"
+enter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+      cached: true
+      stdout: |
+_CompileResult"
+      cached: true
+        Change Dir: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-en1492
+        
+        Change Dir: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-y0q0cn
+        
+        Run Build Command(s):C:/PROGRA~1/MICROS~4/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_0638d && [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0638d.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_0638d.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+        C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc(5): warning C4100: 'argv': unreferenced formal parameter
+/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5fbaa.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_5fbaa.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+        C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc(5): warning C4100: 'argc': unreferenced formal parameter
+        C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc(5): warning C4100: 'argc': unreferenced formal parameter
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0638d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0638d.dir\\return0.cc.obj  /out:cmTC_0638d.exe /implib:cmTC_0638d.lib /pdb:cmTC_0638d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5fbaa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5fbaa.dir\\return0.cc.obj  /out:cmTC_5fbaa.exe /implib:cmTC_5fbaa.lib /pdb:cmTC_5fbaa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+        
+      exitCode: 0
+    runResult:
+0
+    runResult:
+      variable: "_RunResult"
+      cached: true
+nResult"
+      stdout: |
+e
+      stdout: |
+42.01
+      exitCode: 0
+        19.36.32542.01
+      exitCode: 0
+...
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:106 (try_compile)"
+      - "libs/eigen/cmake/EigenDetermineVSServicePack.cmake:8 (_DetermineVSServicePack_CheckVersionWithTryCompile)"
+      - "libs/eigen/cmake/EigenTesting.cmake:534 (EigenDetermineVSServicePack)"
+      - "libs/eigen/cmake/EigenTesting.cmake:657 (ei_get_compilerver)"
+      - "libs/eigen/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      - "libs/eigen/CMakeLists.txt:421 (include)"
+    directories:
+      source: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-jyztlc"
+      binary: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-jyztlc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_MODULE_PATH: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+    buildResult:
+      variable: "_CompileResult"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-jyztlc
+        
+        Run Build Command(s):C:/PROGRA~1/MICROS~4/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_1b542 && [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1b542.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_1b542.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1b542.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1b542.dir\\return0.cc.obj  /out:cmTC_1b542.exe /implib:cmTC_1b542.lib /pdb:cmTC_1b542.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:127 (try_run)"
+      - "libs/eigen/cmake/EigenDetermineVSServicePack.cmake:10 (_DetermineVSServicePack_CheckVersionWithTryRun)"
+      - "libs/eigen/cmake/EigenTesting.cmake:534 (EigenDetermineVSServicePack)"
+      - "libs/eigen/cmake/EigenTesting.cmake:657 (ei_get_compilerver)"
+      - "libs/eigen/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      - "libs/eigen/CMakeLists.txt:421 (include)"
+    directories:
+      source: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-lj1218"
+      binary: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-lj1218"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_MODULE_PATH: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+    buildResult:
+      variable: "_CompileResult"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-lj1218
+        
+        Run Build Command(s):C:/PROGRA~1/MICROS~4/2022/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_8fec3 && [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8fec3.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_8fec3.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+        C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc(5): warning C4100: 'argv': unreferenced formal parameter
+        C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc(5): warning C4100: 'argc': unreferenced formal parameter
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8fec3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8fec3.dir\\return0.cc.obj  /out:cmTC_8fec3.exe /implib:cmTC_8fec3.lib /pdb:cmTC_8fec3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "_RunResult"
+      cached: true
+      stdout: |
+        19.36.32542.01
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:106 (try_compile)"
+      - "libs/eigen/cmake/EigenDetermineVSServicePack.cmake:8 (_DetermineVSServicePack_CheckVersionWithTryCompile)"
+      - "libs/eigen/cmake/EigenTesting.cmake:534 (EigenDetermineVSServicePack)"
+      - "libs/eigen/cmake/EigenTesting.cmake:657 (ei_get_compilerver)"
+      - "libs/eigen/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      - "libs/eigen/CMakeLists.txt:421 (include)"
+    directories:
+      source: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-acg9sl"
+      binary: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-acg9sl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_MODULE_PATH: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+    buildResult:
+      variable: "_CompileResult"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-acg9sl
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c8f61 && [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c8f61.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_c8f61.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c8f61.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c8f61.dir\\return0.cc.obj  /out:cmTC_c8f61.exe /implib:cmTC_c8f61.lib /pdb:cmTC_c8f61.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineVSServicePack.cmake:127 (try_run)"
+      - "libs/eigen/cmake/EigenDetermineVSServicePack.cmake:10 (_DetermineVSServicePack_CheckVersionWithTryRun)"
+      - "libs/eigen/cmake/EigenTesting.cmake:534 (EigenDetermineVSServicePack)"
+      - "libs/eigen/cmake/EigenTesting.cmake:657 (ei_get_compilerver)"
+      - "libs/eigen/cmake/EigenConfigureTesting.cmake:8 (ei_set_build_string)"
+      - "libs/eigen/CMakeLists.txt:421 (include)"
+    directories:
+      source: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-eu30b3"
+      binary: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-eu30b3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714"
+      CMAKE_MODULE_PATH: "C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/libs/eigen/cmake"
+    buildResult:
+      variable: "_CompileResult"
+      cached: true
+      stdout: |
+        Change Dir: C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/CMakeFiles/CMakeScratch/TryCompile-eu30b3
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_d564d && [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W4 /GR /EHsc /EHsc /wd4127 /wd4505 /wd4714  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d564d.dir\\return0.cc.obj /FdCMakeFiles\\cmTC_d564d.dir\\ /FS -c C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc
+        C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc(5): warning C4100: 'argv': unreferenced formal parameter
+        C:\\Dokumenter\\SpiltekV2024\\3D_Prog\\3D-Prog-Compulsory-Final\\out\\build\\x64-debug\\return0.cc(5): warning C4100: 'argc': unreferenced formal parameter
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d564d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d564d.dir\\return0.cc.obj  /out:cmTC_d564d.exe /implib:cmTC_d564d.lib /pdb:cmTC_d564d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+    runResult:
+      variable: "_RunResult"
+      cached: true
+      stdout: |
+        19.36.32542.01
+      exitCode: 0
+...
