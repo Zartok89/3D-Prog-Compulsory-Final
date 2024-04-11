@@ -34,7 +34,6 @@ public:
 
 	///Initializes the window class and all its operations
 	void Init();
-	int Tint();
 
 	///Loads Content
 	bool LoadContent();
@@ -76,7 +75,7 @@ public:
 	// Getters
 	int GetWidth() const;
 	int GetHeight() const;
-	struct GLFWwindow* GetGLFWwindow() const { return mGLFWWindow; };
+	struct GLFWwindow* GetGLFWwindow() const { return mGLFWWindow; }
 
 };
   

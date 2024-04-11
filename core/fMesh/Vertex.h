@@ -14,7 +14,7 @@ struct Vertex
 	glm::vec2 mTextCoord;
 
 	///Vertex struct
-	Vertex() {};
+	Vertex() = default;
 
 	Vertex(const glm::vec3& Position, const glm::vec3& Normals, const glm::vec2 TextCoord)
 		:mPosition(Position), mNormals(Normals), mTextCoord(TextCoord) {};

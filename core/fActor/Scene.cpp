@@ -1,6 +1,6 @@
 #include "Scene.h"
 #include "fMesh/Shader.h"
-#include "pathDir.h"
+#include "misc/pathDir.h"
 #include <GLFW/glfw3.h> 
 
 
@@ -9,8 +9,7 @@
 
  void Scene::LoadContent()
  {
-	 mShader = new Shader("assets/shaders/shader.vs", "assets/shaders/shader.fs");
-	
+	mShader = new Shader(SOURCE_DIRECTORY("assets/shaders/shader.vs"), SOURCE_DIRECTORY("assets/shaders/shader.fs"));
  }
  
  void Scene::UnloadContent()
@@ -21,7 +20,6 @@
 
  void Scene::FrameBufferSizeCallback(Window* window, int width, int height)
  {
-	 static_cast<float>(width) / static_cast<float>(height);
  }
 
  void Scene::MouseButtonCallback(Window* window, int button, int action, int mods)

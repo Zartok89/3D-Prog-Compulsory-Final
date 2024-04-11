@@ -59,11 +59,12 @@ set(HEADER_FILES
   core/fActor/Transform.h
   core/fActor/ActorController.h
   core/fActor/Scene.h
+  core/fActor/Actor.h
+  core/fActor/MeshActor.h
 
-  core/pathDir.h
 
-
-)
+  core/misc/pathDir.h
+   "core/fInterfaces/Render.h")
 
 set(SRC_FILES
   CompulsoryFinal.cpp
@@ -77,6 +78,8 @@ set(SRC_FILES
 
   core/fActor/ActorController.cpp
   core/fActor/Scene.cpp
+  core/fActor/Actor.cpp
+  core/fActor/MeshActor.cpp
  
 )
 
