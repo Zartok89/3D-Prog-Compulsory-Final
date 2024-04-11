@@ -7,23 +7,6 @@
 
 #include <fActor/Scene.h>
 
-/// ///////////////////////////
-void processInput(GLFWwindow* window)
-{
-	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
-		glfwSetWindowShouldClose(window, true);
-}
-
-void framebuffer_size_callback(GLFWwindow* window, int width, int height)
-{
-	// make sure the viewport matches the new window dimensions; note that width and 
-	// height will be significantly larger than specified on retina displays.
-	glViewport(0, 0, width, height);
-}
-
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
-/// ////////////////////////
 
 Window::Window(std::string name, Scene* scene, int width, int height)
 	:mName(name), mScene(scene), mWidth(width), mHeight(height)

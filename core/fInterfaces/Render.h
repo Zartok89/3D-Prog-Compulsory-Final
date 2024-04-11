@@ -1,4 +1,5 @@
 #pragma once
+#include <fMesh/Shader.h>
 
 class IRender
 {
