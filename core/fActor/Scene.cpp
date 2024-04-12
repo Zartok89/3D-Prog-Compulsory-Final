@@ -1,4 +1,7 @@
 #include "Scene.h"
+
+#include <memory>
+
 #include "fMesh/Shader.h"
 #include "misc/pathDir.h"
 #include <GLFW/glfw3.h> 
@@ -10,6 +13,9 @@
  void Scene::LoadContent()
  {
 	mShader = new Shader(SOURCE_DIRECTORY("assets/shaders/shader.vs"), SOURCE_DIRECTORY("assets/shaders/shader.fs"));
+
+	mStaticMeshCube = std::make_shared<Mesh>();
+	mStaticMeshCube->CreateCube();
  }
  
  void Scene::UnloadContent()

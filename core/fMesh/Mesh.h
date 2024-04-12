@@ -4,25 +4,29 @@
 #include "Vertex.h"
 #include <vector>
 
+#include "misc/OGLUint.h"
 #include "Shader.h"
 
 class Mesh
 {
 public:
-    Mesh(const std::string& name, std::vector<Vertex>&& vertices, std::vector<unsigned int>&& indices);
+    static std::unordered_map<std::string, Mesh*> msCache;
+
+	Mesh() = default;
+    Mesh(const std::string& name, std::vector<Vertex>&& vertices, std::vector<Index>&& indices);
     virtual ~Mesh();
 
-	void CreateCube();
+	static Mesh* CreateCube();
 	void Draw(Shader* shader);
 	
 
 private:
 	std::vector<Vertex> mVertices{};
-	std::vector<unsigned int> mIndices{};
+	std::vector<Index> mIndices{};
 
-	unsigned int mVAO{ 0U };
-    unsigned int mVBO{ 0U };
-    unsigned int mEBO{ 0U };
+	VAO mVAO{ 0U };
+    VBO mVBO{ 0U };
+    EBO mEBO{ 0U };
 
 	void MeshSetup();
 };

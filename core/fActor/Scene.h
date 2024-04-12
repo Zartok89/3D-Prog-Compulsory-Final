@@ -3,6 +3,8 @@
 #include <iostream>
 #include <memory>
 
+#include "MeshActor.h"
+
 class Scene
 {
 public:	
@@ -34,5 +36,6 @@ public:
 	void Render(float dt);
 
 private:
-	class Shader* mShader{ nullptr };
+	class Shader* mShader { nullptr };
+	std::shared_ptr<Mesh> mStaticMeshCube { nullptr };
 };
