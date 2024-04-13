@@ -1,8 +1,13 @@
 #include "Mesh.h"
+#include <glad/glad.h>
+
+
+std::unordered_map<std::string, Mesh*> Mesh::msCache; 
 
 Mesh::Mesh(const std::string& name, std::vector<Vertex>&& vertices, std::vector<unsigned>&& indices)
 	: mVertices(std::move(vertices)), mIndices(std::move(indices))
 {
+    MeshSetup();
 }
 
 Mesh::~Mesh()
@@ -12,8 +17,18 @@ Mesh::~Mesh()
 	glDeleteBuffers(1, &mEBO);
 }
 
-void Mesh::CreateCube()
+Mesh* Mesh::CreateCube()
 {
+    ///Create name for model and find cubeKey in unorderedMap
+    const std::string cubeKey = "Cube";
+
+    auto it = msCache.find(cubeKey);
+    if (it != msCache.end())
+    {
+        return it->second;
+    }
+
+    ///Setting the vertex infomration for the cube
 	    std::vector<Vertex> vertices = {
         // Front face
         {{-0.5f, -0.5f,  0.5f}, {0.0f,  0.0f,  1.0f}, {0.0f, 0.0f}}, // Bottom-left
@@ -61,9 +76,46 @@ void Mesh::CreateCube()
         // Bottom face
         20, 21, 22, 20, 22, 23
     };
+
+    msCache[cubeKey] = new Mesh(cubeKey, std::move(vertices), std::move(indices));
+    return msCache[cubeKey];
 }
 
-void Mesh::Draw(Shader* shader)
+///Utility functions
+Mesh* Mesh::Load(const std::string& path)
+{
+    auto modelCache = msCache.find(path);
+
+    if (modelCache != msCache.end())
+    {
+        return modelCache->second;
+    }
+
+    return nullptr;
+}
+
+void Mesh::Unload(const std::string& path)
+{
+    auto modelCache = msCache.find(path);
+
+    if (modelCache != msCache.end())
+    {
+        delete modelCache->second;
+        msCache.erase(modelCache);
+    }
+}
+
+void Mesh::ClearCache()
+{
+    for (auto modelCache : msCache)
+    {
+        delete modelCache.second;
+    }
+    msCache.clear();
+}
+
+///glControll
+void Mesh::Draw(const Shader* shader) const
 {
 	glBindVertexArray(mVAO);
     glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(mIndices.size()), GL_UNSIGNED_INT, 0);
@@ -87,3 +139,4 @@ void Mesh::MeshSetup()
 
 	glBindVertexArray(0);
 }
+

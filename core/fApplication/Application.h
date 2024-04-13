@@ -1,8 +1,12 @@
 #pragma once
 
+///Includes
+#include <memory>
+
+///Class Includes
 #include <fApplication/Window.h>
 #include <fActor/Scene.h>
-#include <memory>
+#include "fMesh/Mesh.h"
 
 class Application
 {

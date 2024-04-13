@@ -1,7 +1,15 @@
 #pragma once
 
+///Includes
 #include <iostream>
 #include <memory>
+
+///CLass Includes
+#include "fMesh/Mesh.h"
+#include "fActor/MeshActor.h"
+
+
+
 
 class Scene
 {
@@ -33,6 +41,15 @@ public:
 	///Render The Scene and all its content
 	void Render(float dt);
 
+	///Update Scene 
+
+
 private:
+	///Actors and controllers
+	MeshActor* mCube0{ nullptr };
+
 	class Shader* mShader{ nullptr };
+
+
+	
 };
