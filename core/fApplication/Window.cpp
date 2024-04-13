@@ -50,6 +50,12 @@ bool Window::LoadContent()
 	return true;
 }
 
+void Window::Update(float dt)
+{
+	if (mScene)
+		mScene->Update(dt);
+}
+
 void Window::gl_Pollevents()
 {
 	glfwPollEvents();
@@ -131,8 +137,8 @@ void Window::FrameBufferSizeCallback(GLFWwindow* window, int width, int height)
 
 void Window::MouseButtonCallback(GLFWwindow* window, int button, int action, int mods)
 {
-    if (mScene)
-        mScene->MouseButtonCallback(this, button, action, mods);
+	if (mScene)
+		mScene->MouseButtonCallback(this, button, action, mods);
 }
 
 void Window::MouseMovementCallback(GLFWwindow* window, double xPos, double yPos)
@@ -149,8 +155,8 @@ void Window::MouseScrollCallback(GLFWwindow* window, double xOffset, double yOff
 
 void Window::KeyCallback(GLFWwindow* window, int key, int action, int scan, int mods)
 {
-    if (mScene)
-        mScene->KeyCallback(this, key, scan, action, mods);
+	if (mScene)
+		mScene->KeyCallback(this, key, scan, action, mods);
 }
 
 void Window::CharCallback(GLFWwindow* window, unsigned int callpoint)

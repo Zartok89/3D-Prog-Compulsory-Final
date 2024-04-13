@@ -52,6 +52,7 @@ int Application::Run()
         }
 
         mWindow.gl_Pollevents();
+        mWindow.Update(deltaTime); 
         mWindow.Render(deltaTime);
         mWindow.gl_SwapBuffers();
     }

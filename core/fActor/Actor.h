@@ -23,6 +23,7 @@ public:
 
 	// Actor update should run first
 	virtual void Update(float dt) {};
+    void UpdateComponents(float dt);
 
 	///Setters
 	void SetTransform(const Transform& transform);
@@ -30,14 +31,29 @@ public:
 	void SetLocalPosition(const glm::vec3& position);
 	void SetLocalRotation(const glm::quat& rotation);
 	void SetLocalScale(const glm::vec3& scale);
-	//void SetWorldPosition(const glm::vec3& position);
-	//void SetWorldRotation(const glm::quat& rotation);
-	//void SetWorldScale(const glm::vec3& scale);
+	void SetWorldPosition(const glm::vec3& position);
+	void SetWorldRotation(const glm::quat& rotation);
+	void SetWorldScale(const glm::vec3& scale);
 
 	// Getters
-    const glm::vec3& GetLocalPosition() const;
-    const glm::quat& GetLocalRotation() const;
+	const glm::vec3& GetLocalPosition() const;
+	glm::vec3 GetWorldPosition() const;
+	const glm::quat& GetLocalRotation() const;
+	glm::quat GetWorldRotation() const;
+	    const glm::vec3& GetLocalScale() const;
+    glm::vec3 GetWorldScale() const;
+    const glm::mat4 GetLocalTransformMatrix() const;
+    glm::mat4 GetWorldTransformMatrix() const;
+	    const Transform& GetLocalTransform() const;
+    std::vector<Actor*>& GetChildren();
+    glm::vec3 GetRight() const;
 
+	    // Scene graph
+    Actor* mParent{nullptr};
+    std::vector<Actor*> mChildren;
+
+    // Components
+    //std::vector<Component*> mComponents;
 
 protected:
 

@@ -38,6 +38,8 @@ public:
 	///Loads Content
 	bool LoadContent();
 
+    void Update(float dt);
+
 	///Controls two factors in the render loop-->Apllication->run()
 	///The functions are ordered after the chain of events
 	//Begin render
@@ -75,7 +77,7 @@ public:
 	// Getters
 	int GetWidth() const;
 	int GetHeight() const;
-	struct GLFWwindow* GetGLFWwindow() const { return mGLFWWindow; }
+	struct GLFWwindow* GetGLFWWindow() const { return mGLFWWindow; }
 
 };
   

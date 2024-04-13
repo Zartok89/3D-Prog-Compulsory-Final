@@ -112,7 +112,6 @@ float Camera::GetAngularAccelerationSpeed() const { return mAngularAccelerationS
 glm::vec3 Camera::GetFront() const { return glm::rotate(GetLocalRotation(), glm::vec3(0.0f, 0.0f, -1.0f)); }
 glm::vec3 Camera::GetUp() const { return glm::rotate(GetLocalRotation(), glm::vec3(0.0f, 1.0f, 0.0f)); }
 
-
 glm::mat4 Camera::GetViewMatrix() const { return glm::lookAt(GetLocalPosition(), GetLocalPosition() + GetFront(), glm::vec3(0.0f, 1.0f, 0.0f)); }
 const glm::mat4& Camera::GetProjectionMatrix() const { return mProjectionMatrix; }
 glm::mat4 Camera::GetVPMatrix() const { return mProjectionMatrix * GetViewMatrix(); }

@@ -5,8 +5,10 @@
 #include <memory>
 
 ///CLass Includes
+#include "Camera.h"
 #include "fMesh/Mesh.h"
 #include "fActor/StaticMeshActor.h"
+#include "fInterfaces/Controller.h"
 
 class Scene
 {
@@ -19,6 +21,10 @@ public:
 	Scene& operator=(const Scene&) = delete;
 	Scene(Scene&&) = delete;
 	Scene& operator=(Scene&&) = delete;
+
+    void UpdateSceneGraph(Actor* actor, float dt, Transform globalParentTransform = Transform{});
+
+    void Update(float dt);
 
 	//SceneGraph mSceneGraph;
 
@@ -35,11 +41,21 @@ public:
 	void KeyCallback(class Window* window, int key, int action, int scan, int mods);
 	void CharCallback(class Window* window, unsigned int callpoint);
 
+
+	void BindCamera();
+
 	///Render The Scene and all its content
 	void Render(float dt);
 
-	///Update Scene 
+	///Update Scene
+	///
 
+
+    void UpdateInputController(float dt);
+
+    std::shared_ptr<IController> mActiveController{ nullptr };
+
+	Camera mSceneCamera{ "SceneCamera" };
 
 private:
 	///Actors and controllers
