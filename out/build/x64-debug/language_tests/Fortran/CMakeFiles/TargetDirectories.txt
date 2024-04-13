@@ -1,2 +1,0 @@
-C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/language_tests/Fortran/CMakeFiles/edit_cache.dir
-C:/Dokumenter/SpiltekV2024/3D_Prog/3D-Prog-Compulsory-Final/out/build/x64-debug/language_tests/Fortran/CMakeFiles/rebuild_cache.dir

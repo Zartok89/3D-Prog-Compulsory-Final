@@ -30,11 +30,11 @@ public:
 
 private:
 	std::vector<Vertex> mVertices{};
-	std::vector<unsigned int> mIndices{};
+	std::vector<Index> mIndices{};
 
-	unsigned int mVAO{ 0U };
-    unsigned int mVBO{ 0U };
-    unsigned int mEBO{ 0U };
+	VAO mVAO{ 0U };
+    VBO mVBO{ 0U };
+    EBO mEBO{ 0U };
 
 	void MeshSetup();
 };

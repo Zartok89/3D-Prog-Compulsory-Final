@@ -52,4 +52,5 @@ private:
 
 
 	
+	std::shared_ptr<Mesh> mStaticMeshCube { nullptr };
 };

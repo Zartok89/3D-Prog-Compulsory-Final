@@ -118,8 +118,8 @@ void Mesh::ClearCache()
 void Mesh::Draw(const Shader* shader) const
 {
 	glBindVertexArray(mVAO);
-    glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(mIndices.size()), GL_UNSIGNED_INT, 0);
-    glBindVertexArray(0);
+	glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(mIndices.size()), GL_UNSIGNED_INT, 0);
+	glBindVertexArray(0);
 }
 
 void Mesh::MeshSetup()
@@ -133,7 +133,7 @@ void Mesh::MeshSetup()
 
 	glGenBuffers(1, &mEBO);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, mEBO);
-	glBufferData(GL_ELEMENT_ARRAY_BUFFER, mIndices.size() * sizeof(unsigned int), mIndices.data(), GL_STATIC_DRAW);
+	glBufferData(GL_ELEMENT_ARRAY_BUFFER, mIndices.size() * sizeof(Index), mIndices.data(), GL_STATIC_DRAW);
 
 	Vertex::VertexAttribs();
 
