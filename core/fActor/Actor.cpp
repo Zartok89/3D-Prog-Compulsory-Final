@@ -52,6 +52,10 @@ void Actor::SetLocalScale(const glm::vec3& scale)
     mTransform.SetScale(scale);
 }
 
+const glm::vec3& Actor::GetLocalPosition() const { return mTransform.GetPosition(); }
+
+const glm::quat& Actor::GetLocalRotation() const { return mTransform.GetRotation(); }
+
 //void Actor::SetWorldScale(const glm::vec3& scale)
 //{
 //    if (mParent)

@@ -1,7 +1,9 @@
 #pragma once
 
 ///Includes
+#include <vector>
 #include <string>
+#include <glm/glm.hpp>
 
 ///Class Includes
 #include "Transform.h"
@@ -9,6 +11,7 @@
 class Actor
 {
 public:
+	virtual ~Actor() = default;
 	///Constructor and destructor
 	Actor(const std::string& name) {};
 
@@ -17,6 +20,9 @@ public:
 
 	Actor(Actor&&) = default;
 	Actor& operator=(Actor&&) = default;
+
+	// Actor update should run first
+	virtual void Update(float dt) {};
 
 	///Setters
 	void SetTransform(const Transform& transform);
@@ -28,10 +34,14 @@ public:
 	//void SetWorldRotation(const glm::quat& rotation);
 	//void SetWorldScale(const glm::vec3& scale);
 
-protected:
+	// Getters
+    const glm::vec3& GetLocalPosition() const;
+    const glm::quat& GetLocalRotation() const;
 
+
+protected:
 
 private:
 	std::string mName;
-	Transform mTransform{}; 
+	Transform mTransform{};
 };

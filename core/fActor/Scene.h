@@ -8,9 +8,6 @@
 #include "fMesh/Mesh.h"
 #include "fActor/StaticMeshActor.h"
 
-
-
-
 class Scene
 {
 public:	

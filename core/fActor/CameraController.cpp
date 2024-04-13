@@ -1,3 +1,5 @@
+#define GLM_ENABLE_EXPERIMENTAL 
+
 #include "CameraController.h"
 #include <fActor/Camera.h>
 #include <GLFW/glfw3.h>

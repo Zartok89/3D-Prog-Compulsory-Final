@@ -71,6 +71,8 @@
 	 glEnable(GL_DEPTH_TEST);
 	 // Bind Shader, only using 1 shader for now
 
+	mCube0->Draw(mShader);
+
 	 mShader->use();
 	
 	 glDepthFunc(GL_LEQUAL);

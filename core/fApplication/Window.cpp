@@ -131,8 +131,6 @@ void Window::FrameBufferSizeCallback(GLFWwindow* window, int width, int height)
 
 void Window::MouseButtonCallback(GLFWwindow* window, int button, int action, int mods)
 {
-	ImGui_ImplGlfw_MouseButtonCallback(window, button, action, mods);
-
     if (mScene)
         mScene->MouseButtonCallback(this, button, action, mods);
 }
@@ -145,16 +143,12 @@ void Window::MouseMovementCallback(GLFWwindow* window, double xPos, double yPos)
 
 void Window::MouseScrollCallback(GLFWwindow* window, double xOffset, double yOffset)
 {
-	ImGui_ImplGlfw_ScrollCallback(window, xOffset, yOffset);
-
 	if (mScene)
 		mScene->MouseScrollCallback(this, xOffset, yOffset);
 }
 
 void Window::KeyCallback(GLFWwindow* window, int key, int action, int scan, int mods)
 {
-	ImGui_ImplGlfw_KeyCallback(window, key, scan, action, mods);
-
     if (mScene)
         mScene->KeyCallback(this, key, scan, action, mods);
 }
