@@ -60,7 +60,7 @@ set(HEADER_FILES
   core/fActor/ActorController.h
   core/fActor/Scene.h
   core/fActor/Actor.h
-  core/fActor/StaticMeshActor.h
+  core/fActor/MeshActor.h
   core/fActor/Camera.h
   core/fActor/CameraController.h
 
@@ -83,7 +83,7 @@ set(SRC_FILES
   core/fActor/ActorController.cpp
   core/fActor/Scene.cpp
   core/fActor/Actor.cpp
-  core/fActor/StaticMeshActor.cpp
+  "core/fActor/StaticMeshActor.cpp"
   core/fActor/Camera.cpp
   core/fActor/CameraController.cpp
  

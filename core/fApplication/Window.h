@@ -25,7 +25,7 @@ public:
 private:
 	///Constructor default members
 	std::string mName;
-	int mWidth, mHeight;
+	int mWidth {800}, mHeight {600};
 	Scene* mScene{ nullptr };
 	struct GLFWwindow* mGLFWWindow{ nullptr };
 
@@ -68,8 +68,8 @@ public:
 	void CharCallback(struct GLFWwindow* window, unsigned int callpoint);
 
 	//Setters
-	void setWidth(int width);
-	void setHeight(int height);
+	void SetWidth(int width);
+	void SetHeight(int height);
 
 
 	// Getters

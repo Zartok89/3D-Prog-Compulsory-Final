@@ -24,7 +24,7 @@
 	
 
 	mShader = new Shader(SOURCE_DIRECTORY("assets/shaders/shader.vs"), SOURCE_DIRECTORY("assets/shaders/shader.fs"));
-	mCube0 = new MeshActor("Cube0", Mesh::CreateCube()); 
+	mCube0 = new StaticMeshActor("Cube0", Mesh::CreateCube()); 
 	mCube0->SetLocalPosition({ 0.f,10.f,0.f });
 
 	//mStaticMeshCube = std::make_shared<Mesh>();

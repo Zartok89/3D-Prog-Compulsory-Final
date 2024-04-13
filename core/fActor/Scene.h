@@ -6,7 +6,7 @@
 
 ///CLass Includes
 #include "fMesh/Mesh.h"
-#include "fActor/MeshActor.h"
+#include "fActor/StaticMeshActor.h"
 
 
 
@@ -46,7 +46,7 @@ public:
 
 private:
 	///Actors and controllers
-	MeshActor* mCube0{ nullptr };
+	StaticMeshActor* mCube0{ nullptr };
 
 	class Shader* mShader{ nullptr };
 
