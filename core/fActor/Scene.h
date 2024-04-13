@@ -1,9 +1,15 @@
 #pragma once
 
+///Includes
 #include <iostream>
 #include <memory>
 
-#include "MeshActor.h"
+///CLass Includes
+#include "fMesh/Mesh.h"
+#include "fActor/MeshActor.h"
+
+
+
 
 class Scene
 {
@@ -35,7 +41,16 @@ public:
 	///Render The Scene and all its content
 	void Render(float dt);
 
+	///Update Scene 
+
+
 private:
-	class Shader* mShader { nullptr };
+	///Actors and controllers
+	MeshActor* mCube0{ nullptr };
+
+	class Shader* mShader{ nullptr };
+
+
+	
 	std::shared_ptr<Mesh> mStaticMeshCube { nullptr };
 };

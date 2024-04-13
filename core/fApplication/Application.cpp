@@ -5,6 +5,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+
 Application* Application::Get()
 {
     static Application* app = new Application; 
@@ -54,6 +55,7 @@ int Application::Run()
         mWindow.Render(deltaTime);
         mWindow.gl_SwapBuffers();
     }
+    Mesh::ClearCache();
 
     glfwTerminate();
 

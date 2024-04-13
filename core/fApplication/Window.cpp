@@ -1,10 +1,12 @@
 #include "Window.h"
+
+///Includes
 #include <exception>
 #include <stdexcept>
-
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+///Class Includes
 #include <fActor/Scene.h>
 
 
