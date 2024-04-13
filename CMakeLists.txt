@@ -61,11 +61,14 @@ set(HEADER_FILES
   core/fActor/Scene.h
   core/fActor/Actor.h
   core/fActor/MeshActor.h
+  core/fActor/Camera.h
+  core/fActor/CameraController.h
 
 
   core/misc/pathDir.h
   core/fInterfaces/Render.h 
-  core/misc/OGLUint.h)
+  core/misc/OGLUint.h 
+  )
 
 set(SRC_FILES
   CompulsoryFinal.cpp
@@ -81,6 +84,8 @@ set(SRC_FILES
   core/fActor/Scene.cpp
   core/fActor/Actor.cpp
   core/fActor/MeshActor.cpp
+  core/fActor/Camera.cpp
+  core/fActor/CameraController.cpp
  
 )
 
