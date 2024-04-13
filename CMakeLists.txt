@@ -65,7 +65,8 @@ set(HEADER_FILES
 
   core/misc/pathDir.h
   core/fInterfaces/Render.h 
-  core/misc/OGLUint.h)
+  core/misc/OGLUint.h
+)
 
 set(SRC_FILES
   CompulsoryFinal.cpp

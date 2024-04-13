@@ -16,6 +16,7 @@
 class Mesh
 {
 public:
+	Mesh() = default;
     explicit Mesh(const std::string& name, std::vector<Vertex>&& vertices, std::vector<unsigned int>&& indices);
     virtual ~Mesh();
 
@@ -31,6 +32,7 @@ public:
 private:
 	std::vector<Vertex> mVertices{};
 	std::vector<Index> mIndices{};
+
 
 	VAO mVAO{ 0U };
     VBO mVBO{ 0U };
